@@ -1,0 +1,20 @@
+# ant
+bin
+target
+out
+
+# intellij
+*.iml
+.idea
+tmp
+classes
+
+# android
+R.java
+local.properties
+proguard_logs
+*.apk
+gen
+
+# OS X
+.DS_Store

@@ -1,0 +1,139 @@
+<resources>
+<!--
+    AirCasting - Share your Air!
+    Copyright (C) 2011-2012 HabitatMap, Inc.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can contact the authors by email at <info@habitatmap.org>
+-->
+
+<string name="hardware_developers">Pengembang Hardware E-Health</string>
+<string name="hardware_developers_content">
+    <![CDATA[
+        <p>
+            Untuk menghubungkan Arduino yang dilengkapi dengan sensor-sensor, USB Host Shield dan USB Bluetooth dongle ke aplikasi AirCasting untuk menampilkan dan merekam pengukuran-pengukuran sensor, lakukan hal-hal berikut:
+            <ul>
+            <li>Unduh Sketch Arduino E-Health untuk proyek ini.</li>
+             <li>Upload file hex hasil build menggunakan Arduino IDE atau CodeBlocks for Arduino ke Board Arduino.</li>
+            <li>Jalankan Board Arduino dan kelengkapannya dan gunakan aplikasi Bluetooth E-Health untuk mengirim data ke server AirCasting untuk ditampilkan ke website AirCasting. Untuk mengirim ke server sendiri, tuliskan URL nya pada pengaturan aplikasi Bluetooth E-Health, “Menu” > “Pengaturan” > “Pengaturan Server”.</li>
+            </ul>
+        </p>
+    ]]>
+</string>
+
+<string name="connect_external_device">Menghubungkan ke Devais Bluetooth</string>
+<string name="connect_external_device_content">
+    <![CDATA[
+        <p>
+        Alikasi Bluetooth E-Health dapat dihubungkan ke devais Bluetooth pada Board Arduino. devais-devais yang didukung:
+        1) paket sensor, contoh Pengawasan Udara AirCasting, yang berkomunikasi dengan Board Arduino dengan format yang ada di sketch Arduino
+        2) mkrokontroler IOIO, dan
+        3) monitor detak jantung Zephyr HxM.
+        </p>
+
+        <p>
+        Untuk menghubungkan ke devais eksternal Bluetooth, arahkan ke layar pengaturan, Tekan “Devais Eksternal”, tekan “pasangkan dengan devais baru”, pindai devais, pilih devais, masukkan PIN yang sesuai, kembali ke aplikasi, pilih nama devais yang tadi, dan jika keluar tulisan untuk terhubung, pilih “Ya” lalu masukkan PIN yang sesuai dan jika benar, komunikasi terjadi.
+        </p>
+    ]]>
+</string>
+
+<string name="about_start">Memulai E-Health</string>
+<string name="about_start_content">
+    <![CDATA[
+        <p>
+       Pastikan GPS aktif dan lokasi di peta akurat. Tekan tombol “Pusat Peta” untuk menyegarkan lokasi dan pusat peta. Pada saat lokasi peta akurat, tekan tombol “Mulai Perekaman" untuk memulai sesi AirCasting. Catatan tanpa posisi lokasi dengan GPS yang benar, anda tidak dapat memetakan sesi anda atau menyumbangkan ke CrowdMap
+        </p>
+    ]]>
+</string>
+
+<string name="about_view_data">Melihat Data E-Health</string>
+<string name="about_view_data_content">
+    <![CDATA[
+        <p>
+        AirCasting menyediakan 3 cara untuk melihat data sensor anda: Peta, Grafik, dan Dashboard Sensor. Tampilan default adalah Dashboard Sensor.
+        </p>
+        <p>
+        Pada Dashboard Sensor, tap judul sensor sekali untuk menyembunyikan/menampilkan nilai puncak dan rerata untuk sesi anda dan tap judul 2 kali untuk jeda.  Untuk memetakan atau membuat grafik dari aliran sensor, tekan lama judul sensor dan tarik kemudian buang ke area “PETA” atau “GRAFIK” di atas layar.  Judul sensor dapat dipindahkan posisinya dengan menekan lama, tarik dan buang.
+        </p>
+        <p>
+        Peta menampilkan posisi anda sekarang sebagai titik berwarna dengan garis outline putih; titik-titik tanpa outline adalah pembacaan sebelumnya. Warna dot mewakili intensitas pembacaan pada sebuah lokasi dengan mengacu ke "Heat Legend ”.
+        </p>
+        <p>
+        Ketika melihat Peta, tekan tombol CrowdMap untuk melihat Layer CrowdMap. CrowdMap menampilkan data AirCasting dari semua kontributor.
+        </p>
+        <p>
+        Grafik menampilkan pembacaan anda terhadap waktu. Perbesar dan perkecil untuk lebih detail dan kurang detail.
+        </p>
+        ]]>
+</string>
+
+<string name="about_note">Buat Catatan/Bagikan</string>
+<string name="about_note_content">
+    <![CDATA[
+        <p>
+        Tap Tombol “Buat Catatan” untuk menambahkan catatan atau foto untuk lokasi tertentu atau membagikan pembacaan anda.
+        </p>
+        ]]>
+</string>
+
+<string name="about_stop">Berhenti E-Health</string>
+<string name="about_stop_content">
+    <![CDATA[
+        <p>
+        Tekan tombol “Berhenti Perekaman” untuk menutup sesi anda.Masukan juduk, tag, dan deskripsinya dan tekan “Simpan Sesi”.
+        </p>
+        ]]>
+</string>
+
+<string name="about_open_session">Bagikan, Sulih, atau Hapus Sesi</string>
+<string name="about_open_session_content">
+    <![CDATA[
+        <p>
+        Tekan lama sesi lama untuk dibagikan, disulih atau dihapus.
+        ]]>
+</string>
+
+<string name="disable_maps">Matikan peta</string>
+<string name="disable_maps_content">
+    <![CDATA[
+        <p>
+       Mematikan peta berakibat rekaman sesi anda tanpa berbagi lokasi anda.
+        </p>
+        ]]>
+</string>
+
+<string name="about_open_source">Kode Terbuka</string>
+<string name="about_open_source_content">
+    <![CDATA[
+        <p>
+        Bluetooth E-Health adalah modifikasi dari AirCasting dan bersifat terbuka.
+        </p>
+        ]]>
+</string>
+
+<string name="about_thanks">Ucapan Terima Kasih</string>
+<string name="about_thanks_content">
+    <![CDATA[
+        <p>
+        Kepada <a href="http://www.lunarlogic.io">Lunar Logic</a> untuk pengkodean website dan aplikasi AirCasting;
+        kepada <a href="http://www.citytech.cuny.edu/academics/deptsites/cetech/faculty/heng.html">Dr. Iem Heng</a> dan Raymond Yap untuk mendesain, memprogram, merakit dan menguji AirCasting Air Monitor dan AirCasting Luminescence electronics;
+        kepada <a href="http://www.mohamad-dani.tk">Mohamad Dani, M.T.</a> untuk membangun, memprogram dan menguji Wireless Weather Monitoring.
+        </p>
+        ]]>
+</string>
+
+<string name="about_version">Versi</string>
+
+</resources>

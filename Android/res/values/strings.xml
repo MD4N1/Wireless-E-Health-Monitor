@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AirCasting - Share your Air!
+    Copyright (C) 2011-2012 HabitatMap, Inc.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can contact the authors by email at <info@habitatmap.org>
+-->
+<resources>
+  <string name="app_name">Wireless E-Health</string>
+
+  <string name="menu_start_aircasting">Mulai</string>
+  <string name="menu_stop_aircasting">Berhenti</string>
+  <string name="menu_note_or_share">Catatan/Bagikan</string>
+  <string name="menu_about">Tentang</string>
+  <string name="menu_preferences">Pengaturan</string>
+  <string name="menu_sessions">Sesi</string>
+  <string name="menu_share">Bagikan</string>
+
+  <string name="save_session_message">Maukah Anda menyimpan sesi?</string>
+
+  <string name="saving">Menyimpan...</string>
+  <string name="loading">Mengambil..</string>
+
+  <string name="save">Simpan</string>
+  <string name="discard">Membatalkan</string>
+  <string name="session">Sesi</string>
+  <string name="title">Judul</string>
+  <string name="avg">Rerata</string>
+  <string name="password">Kata Kunci</string>
+  <string name="peak">Puncak</string>
+  <string name="calibration">Mikropon maksimum</string>
+  <string name="view">Lihat</string>
+  <string name="edit">Sulih</string>
+  <string name="delete">Hapus</string>
+  <string name="share">Bagikan</string>
+  <string name="cancel">Batal</string>
+  <string name="upload">Unggah</string>
+  <string name="username">Nama profil</string>
+  <string name="low">Rendah</string>
+  <string name="high">Tinggi</string>
+  <string name="ok">OK</string>
+  <string name="email">E-mail</string>
+
+  <string name="profile">Profil</string>
+  <string name="average_threshold">Suara Rerata (dB)</string>
+  <string name="color_scale">Satuan lejen Panas </string>
+  <string name="edit_session">Sulih sesi</string>
+  <string name="heat_map_density">Resolusi Crowd</string>
+  <string name="loud_threshold">Suara Keras (dB)</string>
+  <string name="make_a_note">Membuat Catatan</string>
+  <string name="satellite_view">Peta Satelit</string>
+  <string name="save_session">Simpan Sesi</string>
+  <string name="very_loud_threshold">Suara sangat keras (dB)</string>
+
+  <string name="profile_summary">Membuat akun atau sign in</string>
+  <string name="average_threshold_summary">Pengukuran lebih dari ini akan diberi warna kuning.</string>
+  <string name="calibration_summary">Set level suara mikropon ponsel dari 80 dan 100.</string>
+  <string name="color_scale_summary">Atur hubungan antara level suara dan warna tampilan.</string>
+  <string name="connect_to_aircasting">Terhubung ke Bluetooth E-Health</string>
+  <string name="create_new_account">Buat akun baru?</string>
+  <string name="heat_map_density_summary">Resolusi.</string>
+  <string name="loud_threshold_summary">Pengukuran lebih dari ini akan diberi warna oranye.</string>
+  <string name="save_and_share">Simpan dan bagikan</string>
+  <string name="share_with">Bagikan dengan</string>
+  <string name="very_loud_threshold_summary">Pengukuran lebih dari ini akan diberi warna merah.</string>
+  <string name="too_loud_summary">Pengukuran lebih dari ini tidak akan ditampilkan.</string>
+  <string name="too_quiet_summary">Pengukuran kurang dari ini tidak akan ditampilkan.</string>
+
+  <string name="color_scale_error">Nilai-nilai salah</string>
+  <string name="login_error">Login gagal</string>
+  <string name="account_creation_error">Tidak dapat membuat akun</string>
+  <string name="unknown_error">Kesalahan tidak diketahui</string>
+  <string name="email_invalid">Email invalid</string>
+  <string name="password_too_short">Password terlalu pendek</string>
+
+  <string name="no_internet">Silakan periksa koneksi Interner anda.</string>
+
+  <string name="session_link_template"
+          formatted="false">Lihat sesi Bluetooth E-Health: %s
+  </string>
+  <string name="session_file_template">Lihat sesi Bluetooth E-Health. Hal ini\'s berupa file CSV.</string>
+  <string name="profile_template"
+          formatted="false">Masuk sebagai %s
+  </string>
+
+  <string name="title_label">Judul:</string>
+  <string name="tags_label">Tag:</string>
+  <string name="description_label">Deskripsi:</string>
+
+  <string name="db_avg">Rerata dB</string>
+  <string name="peak_gauge">Puncak dB</string>
+  <string name="now_gauge">Sekarang dB</string>
+  <string name="save_changes">Simpan Perubahan</string>
+  <string name="reset_to_default">Reset ke Default</string>
+
+  <string name="no_data">Tidak ada data yang direkam</string>
+  <string name="share_link">Bagikan link</string>
+  <string name="share_file">Bagikan file</string>
+  <string name="share_title">lihat Sesi Bluetooth E-Health</string>
+  <string name="im_aircasting">I\'m AirCasting</string>
+  <string name="session_options">Pilihan Sesi</string>
+  <string name="discard_session">Batalkan Sesi</string>
+  <string name="session_details">Detail Sesi</string>
+  <string name="note">Catatan</string>
+  <string name="sign_out">Keluar</string>
+  <string name="contribute_to_crowd_map">Kontribusi ke CrowdMap</string>
+  <string name="forgot_password">Lupa password</string>
+  <string name="reset_email_sent">E-mail dikirimkan</string>
+  <string name="account_does_not_exist">Akun dengan email ini tidak ada</string>
+  <string name="working">Bekerja...</string>
+  <string name="create_profile">Membuat profil</string>
+  <string name="sign_in">Masuk</string>
+  <string name="reset_password">Reset password</string>
+  <string name="username_or_email">Nama profil atau email</string>
+  <string name="gps_off_warning">Silakan aktifkan penerima GPS</string>
+  <string name="send_emails">Kirim saya email dari aplikasi ini</string>
+  <string name="no_gps_fix_warning">Lokasi tidak terbaca. pastikan lokasinya benar.</string>
+  <string name="contribute_explanation">Silakan berkontribusi e Crowd App.</string>
+  <string name="yes_contribute">Ya, simpan dan kontribusikan</string>
+  <string name="no_contribute">Simpan saja</string>
+  <string name="keep_screen_on">Layar tetap nyala</string>
+  <string name="offset_60_db">Offset pada 60 dB</string>
+  <string name="offset_60_db_summary">Atur dB offset untuk meningkatkan keakuratan pembacaan.</string>
+  <string name="offset_error">offset antara -5 dan +5 dB.</string>
+  <string name="share_session">Bagi sesi</string>
+  <string name="account_reminder">Masukkan atau membuat profil untuk menyimpan dan mengunggah sesi.</string>
+  <string name="setting_error">Nilai invalid</string>
+  <string name="stop_aircasting">Untuk melihat sesi, aplikasinya harus distop dulu stop.</string>
+  <string name="session_not_uploaded">Upload sesi ditunda dulu - coba lagi beberapa saat.</string>
+
+  <string name="unnamed_session"><![CDATA[<i>unnamed</i>]]></string>
+  <string name="mic_error">Tidak dapat mengakses mikrofon, silakan matikan aplikasi media playernya.</string>
+  <string name="averaging_time">Waktu rerata</string>
+  <string name="averaging_time_summary">Suara direkam tiap detik</string>
+  <string name="averaging_time_error">Waktu rerata harus lebih dari 0</string>
+  <string name="attach_photo">Tempelkan photo</string>
+  <string name="view_photo">Lihat photo</string>
+  <string name="photo_success">Photo ditempelkan</string>
+  <string name="storage_error">Tidak dapat mengakses SD card</string>
+  <string name="sync_now">Sinkronisasikan sekarang</string>
+  <string name="sync_in_progress">Sesi sinkronisasi..</string>
+  <string name="sync_possible">Sinkronisasi sekarang..</string>
+  <string name="sync_failed">Sinkronisasi gagal. Periksa koneksi Jaringan anda.</string>
+  <string name="sync_only_wifi">Sinkronisasi Wi-Fi</string>
+  <string name="aircasting_is_recording">Bluetooth E-Health sedang mereka sesi</string>
+  <string name="show_route">Pelacakan rute</string>
+  <string name="external_devices">Devais eksternal</string>
+  <string name="bluetooth_not_supported">Smartphone anda tidak mendukung bluetooth.</string>
+  <string name="measurement_streams">Aliran pengukuran</string>
+
+  <string name="peak_label_template" formatted="false">Puncak %s</string>
+  <string name="now_label_template" formatted="false">Sekarang %s</string>
+  <string name="avg_label_template" formatted="false">Rerata%s</string>
+
+  <string name="select_sensor">Piih parameter - sensor</string>
+  <string name="all">Semua</string>
+  <string name="delete_button_description">Hapus tombol stream</string>
+  <string name="record_button_description">Rekam tombol stream</string>
+  <string name="view_button_description">Lihat tombol stream</string>
+  <string name="Name">Nama</string>
+  <string name="Address">Alamat</string>
+  <string name="connect_sensor">Hubungkan?</string>
+  <string name="disconnect_sensor">Putuskan?</string>
+
+  <string name="backend_address">Alamat Backend</string>
+  <string name="backend_port">Port Backend</string>
+  <string name="backend_settings">Pengaturan Backend</string>
+  <string name="backend_settings_summary">Atur alamat dan port backend</string>
+  <string name="show_graph_metadata">Tampil metadata grafik</string>
+
+  <string name="available_sensors_label">Yang terbaca</string>
+  <string name="known_sensors_label">Exter</string>
+  <string name="connected_sensors_label">Terhubung</string>
+  <string name="paired_sensors_label">Terpasang</string>
+  <string name="pair_with_new_devices">Pasangkan dengan devais baru</string>
+  <string name="session_sync_failed">Sinkronisasi sesi gagal, periksa koneksi jaringan anda</string>
+  <string name="disable_maps_description">mengijinkan merekam lokasi tanpa GPS. Sesi tidak disimpan ke aircasting.org.</string>
+  <string name="no_location_warning">Aktifkan GPS anda.</string>
+
+  <string name="center_map">Pusat Peta</string>
+  <string name="record_session">Mulai perekaman</string>
+  <string name="stop_recording">Berhenti perekaman</string>
+  <string name="crowdmap">CrowdMap</string>
+  <string name="dashboard">Dasbor</string>
+
+  <string name="drag_to_graph_stream">Tekan lama kemudian tarik &amp; buang judul sensor ke grafik.</string>
+  <string name="drag_to_map_stream">Tekan lama kemudian tarik &amp; buang judul sensor ke peta.</string>
+
+  <string name="cant_map_without_gps">Aktifkan GPS anda.</string>
+</resources>

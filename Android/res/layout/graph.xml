@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AirCasting - Share your Air!
+    Copyright (C) 2011-2012 HabitatMap, Inc.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can contact the authors by email at <info@habitatmap.org>
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+            >
+
+        <pl.llp.aircasting.view.NoisePlot android:layout_width="fill_parent"
+                                          android:layout_height="fill_parent"
+                                          android:layout_weight="1"
+                                          android:layout_marginTop="32dp"
+                                          android:id="@+id/noise_graph"
+                />
+
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="6dp"
+                   android:background="@drawable/white_gradient_left"
+                   android:layout_alignTop="@id/noise_graph"
+                   android:layout_alignLeft="@id/noise_graph"
+                   android:layout_alignBottom="@id/noise_graph"
+                   android:visibility="gone"
+                   android:id="@+id/suggest_scroll_left"
+                />
+
+        <TextView style="@style/Wrap"
+                  android:text="00:00:00"
+                  android:layout_alignBottom="@id/noise_graph"
+                  android:layout_marginLeft="5dp"
+                  android:id="@+id/graph_begin_time"
+                  android:textColor="@android:color/white"
+                />
+
+        <TextView style="@style/Wrap"
+                  android:text="00:00:00"
+                  android:layout_alignBottom="@id/noise_graph"
+                  android:layout_alignRight="@id/noise_graph"
+                  android:layout_marginRight="5dp"
+                  android:id="@+id/graph_end_time"
+                  android:textColor="@android:color/white"
+                />
+
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="6dp"
+                   android:background="@drawable/white_gradient_right"
+                   android:layout_alignTop="@id/noise_graph"
+                   android:layout_alignRight="@id/noise_graph"
+                   android:layout_alignBottom="@id/noise_graph"
+                   android:visibility="gone"
+                   android:id="@+id/suggest_scroll_right"
+                />
+
+        <pl.llp.aircasting.view.TouchPane android:layout_height="fill_parent"
+                                          android:layout_width="fill_parent"
+                                          android:id="@+id/touch_pane"
+                />
+
+        <include layout="@layout/gauges"/>
+
+        <include layout="@layout/note_viewer"/>
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_above="@id/graph_end_time"
+                        android:id="@+id/buttons"
+                >
+
+            <include layout="@layout/zoom_buttons"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/context_buttons"/>
+</LinearLayout>
